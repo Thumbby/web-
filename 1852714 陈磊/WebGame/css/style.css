@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.game-background{
+    position: fixed;
+    width: 100%;
+    height:100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+#game-canvas{
+    position: fixed;
+    width: 100%;
+    height:100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.title{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    color: darkkhaki;
+    font-size: 0.8rem;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.start{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 0.4rem;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.win{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 0.6rem;
+    font-weight: bold;
+    z-index: 2;
+}
+
+
+.lose{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    color:red;
+    font-size: 0.6rem;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.playagain{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-size: 0.3rem;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.info{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-size: 0.1rem;
+    font-weight: bold;
+    z-index: 2;
+}
+

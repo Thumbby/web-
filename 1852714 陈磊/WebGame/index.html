@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" data-dw="750">
+	<head>
+		<title>My Game</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+        <img class="game-background" src="img/background.jpg" alt="">
+        <audio id="phase1" src="mp3/phase1.mp3"></audio>
+        <audio id="phase2" src="mp3/phase2.mp3"></audio>
+        <audio id="phase3" src="mp3/phase3.mp3"></audio>
+        <canvas id="game-canvas"></canvas>
+        <span class="title">Dumb Souls</span>
+        <span class="start">start game</span>
+        <span class="win">You Win</span>
+        <span class="lose">You Died</span>
+        <span class="playagain">play again</span>
+        <span class="info">a：左移 d：右移 鼠标左击：攻击 s：暂停</span>
+
+        <script src="js/easeljs.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/preloadjs.min.js"></script>
+        <script src="js/rem.js"></script>
+        <script src="index.js"></script>
+        <script src="js/player.js"></script>
+        <script src="js/flame.js"></script>
+	</body>
+</html>
